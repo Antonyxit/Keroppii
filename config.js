@@ -14,57 +14,22 @@ global.authFile = `ShadowsBot`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', false],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true], 
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true], 
-  ['5215541081250', '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕', true],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'], 
-  ['5215541081250'],  
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'], 
-  ['5215541081250'], 
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'], 
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250']
+  ['5214461281232', '👑 danny - Creador 👑', true],
+  ['5214461281232', '𝐏𝐑𝐎 𝐁𝐎𝐓 - Collaborator 2 💫', true],
+  ['5214461281232']
 ];
 
-global.suittag = ['5215541081250'];
-global.prems = ['5215541081250'];
+global.suittag = ['5214461281232'];
+global.prems = ['5214461281232'];
 
-// API
-global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
+global.packname = '𝐒𝐓𝐈𝐂𝐊𝐄𝐑';
+global.author = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.wm = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.titulowm = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.titulowm2 = `𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓`
+global.igfg = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.wait = '*_[ ⏳ ] Cargando..._*';
 
-global.packname = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.author = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.wm = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.titulowm = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.titulowm2 = `𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕`
-global.igfg = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.wait = '*_[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ.._*';
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
 global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
@@ -83,16 +48,16 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕`;
-global.gt = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.mysticbot = '𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕';
-global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.wm2 = `${dia} ${fecha}\n𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓`;
+global.gt = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.mysticbot = '𝐊𝐄𝐑𝐎𝐏𝐏𝐈 𝐁𝐎𝐓';
+global.channel = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
+global.md = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
+global.mysticbot = 'https://chat.whatsapp.com/L7VhOnhSp6i4Ir6RIfo66K';
 global.waitt = '*_[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ.._*';
 global.waittt = '*_[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ.._*';
 global.waitttt = '*_[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ.._*';
-global.nomorown = '5215541081250';
+global.nomorown = '5214461281232';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
