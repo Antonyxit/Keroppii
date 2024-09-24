@@ -131,7 +131,7 @@ const connectionOptions = {
     logger: Pino({ level: 'silent' }),
     printQRInTerminal: opcion === '1' || methodCodeQR,
     mobile: MethodMobile,
-    browser: opcion === '1' ? ['Shadows Bot', 'Safari', '2.0.0'] : methodCodeQR ? ['Shadows Bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+    browser: opcion === '1' ? ['𝐊𝐄𝐑𝐎𝐏𝐏𝐈 Bot', 'Safari', '2.0.0'] : methodCodeQR ? ['𝐊𝐄𝐑𝐎𝐏𝐏𝐈 Bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
     auth: {
         creds: state.creds,
         keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: 'fatal' }).child({ level: 'fatal' })),
@@ -531,7 +531,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn?.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝑩𝒐𝒕 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 𝑺𝒉𝒂𝒅𝒐𝒘𝑽𝒛 𝑻𝒊𝒎𝒆 𝑨𝒄𝒕𝒊𝒗𝒆𝒅: ${uptime}`;
+  const bio = `𝐁𝐨𝐭 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐊𝐞𝐫𝐨𝐩𝐩𝐢 𝑻𝒊𝒎𝒆 𝑨𝒄𝒕𝒊𝒗𝒆𝒅: ${uptime}`;
   await conn?.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
